@@ -19,6 +19,7 @@ public class HotelCaliforniaModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(columnDefinition = "UUID")
     private UUID id;
 
     @Column(name = "name")
